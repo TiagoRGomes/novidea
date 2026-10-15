@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Figuras de acción personalizadas</title>
+  <desc id="desc">Três figuras colecionáveis coloridas criadas por impressão 3D.</desc>
+  <rect width="1200" height="1100" fill="#eae2d8"/>
+  <path d="M0 820h1200v280H0Z" fill="#d9cbbd"/>
+  <ellipse cx="600" cy="900" rx="425" ry="54" fill="#17252d" opacity=".16"/>
+  <g transform="translate(170 170)">
+    <circle cx="160" cy="142" r="94" fill="#e7b000"/>
+    <path d="M103 235h114l58 260H45Z" fill="#e25f3d"/>
+    <path d="M103 270 22 413l67 34 72-101ZM218 270l81 143-67 34-72-101Z" fill="#e25f3d"/>
+    <path d="m98 490-65 310h74l68-276 68 276h74l-65-310Z" fill="#17252d"/>
+    <circle cx="128" cy="133" r="13" fill="#17252d"/><circle cx="193" cy="133" r="13" fill="#17252d"/>
+    <path d="M128 182q33 27 65 0" fill="none" stroke="#17252d" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(520 240) scale(.88)">
+    <circle cx="160" cy="142" r="94" fill="#e25f3d"/>
+    <path d="M103 235h114l58 260H45Z" fill="#17252d"/>
+    <path d="M103 270 22 413l67 34 72-101ZM218 270l81 143-67 34-72-101Z" fill="#17252d"/>
+    <path d="m98 490-65 310h74l68-276 68 276h74l-65-310Z" fill="#e7b000"/>
+    <circle cx="128" cy="133" r="13" fill="#fffdf8"/><circle cx="193" cy="133" r="13" fill="#fffdf8"/>
+  </g>
+  <g transform="translate(850 350) scale(.62)">
+    <circle cx="160" cy="142" r="94" fill="#17252d"/>
+    <path d="M103 235h114l58 260H45Z" fill="#e7b000"/>
+    <path d="m98 490-65 310h74l68-276 68 276h74l-65-310Z" fill="#e25f3d"/>
+  </g>
+</svg>

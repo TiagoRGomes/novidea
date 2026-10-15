@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Medalhas personalizadas impressas em 3D</title>
+  <desc id="desc">Medalhas coral e amarela com fitas sobre um fundo escuro.</desc>
+  <rect width="1000" height="1000" fill="#17252d"/>
+  <circle cx="160" cy="120" r="120" fill="#e25f3d" opacity=".35"/>
+  <path d="M186 0h130l55 388H241Z" fill="#e7b000"/>
+  <path d="M452 0h130l-32 388H420Z" fill="#e25f3d"/>
+  <path d="M718 0h130l-92 388H626Z" fill="#e7b000"/>
+  <g transform="translate(85 355)"><circle cx="150" cy="150" r="145" fill="#e25f3d" stroke="#fffdf8" stroke-opacity=".65" stroke-width="10"/><circle cx="150" cy="150" r="104" fill="#e7b000"/><path d="m150 74 24 49 54 8-39 38 9 54-48-26-48 26 9-54-39-38 54-8Z" fill="#17252d"/></g>
+  <g transform="translate(360 390)"><circle cx="150" cy="150" r="145" fill="#e7b000" stroke="#fffdf8" stroke-opacity=".65" stroke-width="10"/><circle cx="150" cy="150" r="104" fill="#fffdf8"/><text x="150" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="92" font-weight="800" fill="#e25f3d">1</text></g>
+  <g transform="translate(635 330)"><circle cx="150" cy="150" r="145" fill="#fffdf8" stroke="#fffdf8" stroke-opacity=".65" stroke-width="10"/><circle cx="150" cy="150" r="104" fill="#e25f3d"/><path d="m150 74 24 49 54 8-39 38 9 54-48-26-48 26 9-54-39-38 54-8Z" fill="#e7b000"/></g>
+</svg>

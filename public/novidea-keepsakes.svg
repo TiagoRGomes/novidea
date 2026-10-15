@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Recuerdos personalizados</title>
+  <desc id="desc">Plaques and small keepsakes created with 3D printing.</desc>
+  <rect width="1000" height="1000" fill="#e25f3d"/>
+  <rect x="105" y="150" width="790" height="700" rx="68" fill="#ef7455"/>
+  <path d="M170 724h660" stroke="#17252d" stroke-opacity=".18" stroke-width="22" stroke-linecap="round"/>
+  <g transform="translate(190 255)"><path d="M0 125 310 0l310 125v315H0Z" fill="#fffdf8"/><path d="M0 125 310 0l310 125-310 120Z" fill="#e7b000"/><path d="M80 180h460v180H80Z" fill="#17252d"/><text x="310" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="102" font-weight="800" fill="#e7b000">N</text></g>
+  <circle cx="195" cy="778" r="38" fill="#e7b000"/><circle cx="805" cy="778" r="38" fill="#e7b000"/>
+</svg>

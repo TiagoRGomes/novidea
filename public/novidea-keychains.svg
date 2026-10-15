@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Llaveros personalizados impresos en 3D</title>
+  <desc id="desc">Colección de llaveros geométricos y etiquetas personalizadas.</desc>
+  <rect width="1200" height="1100" fill="#d9cbbd"/>
+  <circle cx="970" cy="160" r="120" fill="#e7b000" opacity=".7"/>
+  <ellipse cx="600" cy="914" rx="390" ry="56" fill="#17252d" opacity=".15"/>
+  <g transform="translate(150 230) rotate(-12)">
+    <circle cx="150" cy="90" r="76" fill="none" stroke="#17252d" stroke-width="32"/>
+    <path d="M150 164v102" stroke="#17252d" stroke-width="25"/>
+    <rect x="42" y="245" width="216" height="250" rx="52" fill="#e25f3d"/>
+    <path d="M90 345h120M90 400h98" stroke="#fffdf8" stroke-width="21" stroke-linecap="round" opacity=".85"/>
+    <circle cx="150" cy="290" r="15" fill="#e7b000"/>
+  </g>
+  <g transform="translate(490 155) rotate(9)">
+    <circle cx="155" cy="80" r="68" fill="none" stroke="#e25f3d" stroke-width="28"/>
+    <path d="M155 147v95" stroke="#e25f3d" stroke-width="23"/>
+    <path d="m155 210 180 142-64 226H39L-25 352Z" fill="#17252d"/>
+    <text x="155" y="452" text-anchor="middle" font-family="Arial,sans-serif" font-size="110" font-weight="800" fill="#e7b000">N</text>
+  </g>
+  <g transform="translate(795 330) rotate(16)">
+    <circle cx="105" cy="55" r="55" fill="none" stroke="#e7b000" stroke-width="26"/>
+    <path d="M105 110v65" stroke="#e7b000" stroke-width="22"/>
+    <path d="m105 160 125 92-42 164H22l-42-164Z" fill="#fffdf8"/>
+    <path d="m105 215 18 39 43 5-32 28 10 42-39-22-39 22 10-42-32-28 43-5Z" fill="#e25f3d"/>
+  </g>
+</svg>

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Playfair+Display:wght@400;500;600;700&family=DM+Serif+Display&family=Cormorant+Garamond:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-ink: #14221E;
+    --brand-ink-deep: #071713;
+    --brand-ink-soft: #213A32;
+    --brand-paper: #F7F3EB;
+    --brand-surface: #FFFCF6;
+    --brand-soft: #F0EBE2;
+    --brand-text: #17231F;
+    --brand-muted: #526057;
+    --brand-faint: #7A837B;
+    --brand-line: #D8D1C6;
+    --brand-primary: #E8BE5B;
+    --brand-primary-foreground: #14221E;
+    --brand-primary-highlight: #F5D684;
+    --brand-accent-bg: #9A7430;
+    --brand-accent-foreground: #FFFCF6;
+    --brand-accent-text: #806126;
+    --brand-accent-highlight: #D9B65B;
+    --brand-on-ink: #FFFCF6;
+    --brand-on-surface: #17231F;
+    --background: 42 36% 94%;
+    --foreground: 160 20% 10%;
+    --card: 42 100% 99%;
+    --card-foreground: 198 29% 13%;
+    --popover: 42 100% 99%;
+    --popover-foreground: 198 29% 13%;
+    --primary: 43 73% 63%;
+    --primary-foreground: 160 20% 10%;
+    --secondary: 31 24% 89%;
+    --secondary-foreground: 198 29% 13%;
+    --muted: 31 24% 89%;
+    --muted-foreground: 198 12% 38%;
+    --accent: 43 73% 63%;
+    --accent-foreground: 160 20% 10%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 42 100% 99%;
+    --border: 37 19% 81%;
+    --input: 37 19% 81%;
+    --ring: 43 73% 63%;
+    --radius: 1.1rem;
+    --sidebar-background: 42 33% 95%;
+    --sidebar-foreground: 198 29% 13%;
+    --sidebar-primary: 43 73% 63%;
+    --sidebar-primary-foreground: 160 20% 10%;
+    --sidebar-accent: 31 24% 89%;
+    --sidebar-accent-foreground: 198 29% 13%;
+    --sidebar-border: 37 19% 81%;
+    --sidebar-ring: 43 73% 63%;
+  }
+
+  * { @apply border-border; }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1.5rem;
+    background: var(--brand-paper);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    min-width: 320px;
+    font-family: var(--font-body, 'DM Sans', sans-serif);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a, button, input, textarea, select { -webkit-tap-highlight-color: transparent; }
+  button, input, textarea, select { font: inherit; }
+
+  :focus-visible {
+    outline: 3px solid var(--brand-primary);
+    outline-offset: 3px;
+  }
+
+  ::selection { background: var(--brand-primary); color: var(--brand-primary-foreground); }
+}
+
+@layer utilities {
+  .font-display { font-family: var(--font-display, 'Fraunces', Georgia, serif); }
+
+  .text-balance { text-wrap: balance; }
+
+  .premium-shadow { box-shadow: 0 24px 70px rgba(7, 23, 19, 0.13); }
+}
+
+.novidea-site {
+  color-scheme: light;
+  --novidea-forest: var(--brand-ink);
+  --novidea-green: var(--brand-ink-soft);
+  --novidea-cream: var(--brand-paper);
+  --novidea-paper: var(--brand-surface);
+  --novidea-gold: var(--brand-primary);
+}
+
+.novidea-site img { background-color: color-mix(in srgb, var(--brand-ink) 4%, transparent); }
+.novidea-site a { text-decoration-thickness: from-font; }
+.novidea-site button { cursor: pointer; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* Surface and badge legibility across the public site. Avoid translucent labels over busy photography. */
+.novidea-site .novidea-badge {
+  display: inline-flex;
+  align-items: center;
+  max-width: calc(100% - 1.5rem);
+  border: 1px solid var(--brand-line);
+  background: var(--brand-surface);
+  color: var(--brand-text);
+  box-shadow: 0 3px 12px rgba(7, 23, 19, 0.12);
+  backdrop-filter: none;
+  opacity: 1;
+}
+
+.novidea-site .novidea-badge--accent {
+  border-color: var(--brand-line);
+  background: var(--brand-primary);
+  color: var(--brand-primary-foreground);
+}
+
+.novidea-site .novidea-badge--dark {
+  border-color: color-mix(in srgb, var(--brand-line) 72%, transparent);
+  background: var(--brand-ink-deep);
+  color: var(--brand-on-ink);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
+}
+
+.novidea-site .novidea-product-card {
+  border: 1px solid var(--brand-line);
+  background-color: var(--brand-surface);
+}
+
+/* The outline badge variant also gets a solid surface, not a transparent background. */
+.novidea-site [data-novidea-badge],
+.novidea-site .novidea-badge--outline {
+  background-color: var(--brand-surface);
+  color: var(--brand-text);
+}
+
+/* Opaque photo overlays: use real color values instead of Tailwind alpha modifiers on hex CSS variables.
+   This keeps badges and text panels readable against both bright and dark product photography. */
+.novidea-site .novidea-photo-shade-left,
+.novidea-photo-shade-left {
+  background: linear-gradient(90deg, var(--brand-ink-deep) 0%, var(--brand-ink-deep) 24%, transparent 100%);
+}
+
+.novidea-site .novidea-photo-shade-left-strong,
+.novidea-photo-shade-left-strong {
+  background: linear-gradient(90deg, var(--brand-ink-deep) 0%, var(--brand-ink-deep) 35%, transparent 100%);
+}
+
+.novidea-site .novidea-photo-shade-bottom,
+.novidea-photo-shade-bottom {
+  background: linear-gradient(0deg, var(--brand-ink-deep) 0%, var(--brand-ink-deep) 18%, transparent 100%);
+}
+
+.novidea-site .novidea-photo-tint,
+.novidea-photo-tint {
+  background: var(--brand-ink-deep);
+  opacity: 0.14;
+}
+
+.novidea-site .novidea-overlay-panel,
+.novidea-overlay-panel {
+  background-color: var(--brand-ink);
+  color: var(--brand-on-ink);
+  border: 1px solid color-mix(in srgb, var(--brand-on-ink) 22%, var(--brand-ink));
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.24);
+  opacity: 1;
+  backdrop-filter: none;
+}
+
+.novidea-site .novidea-photo-caption,
+.novidea-photo-caption {
+  background-color: var(--brand-ink-deep);
+  color: var(--brand-on-ink);
+  border: 1px solid color-mix(in srgb, var(--brand-on-ink) 22%, var(--brand-ink-deep));
+  opacity: 1;
+}
+
+.novidea-photo-shade-login {
+  background: linear-gradient(135deg, var(--brand-ink-deep) 0%, var(--brand-ink) 58%, var(--brand-ink-deep) 100%);
+  opacity: 0.9;
+}
+
+/* Muted text on an opaque dark panel stays subdued without losing readable contrast. */
+.novidea-site .novidea-on-ink-muted {
+  color: color-mix(in srgb, var(--brand-on-ink) 78%, var(--brand-ink));
+}
+.novidea-site .novidea-on-ink-subtle {
+  color: color-mix(in srgb, var(--brand-on-ink) 68%, var(--brand-ink));
+}
+
+
+.novidea-site .novidea-icon-chip,
+.novidea-icon-chip {
+  background-color: var(--brand-ink-deep);
+  color: var(--brand-on-ink);
+  border: 1px solid color-mix(in srgb, var(--brand-on-ink) 22%, var(--brand-ink-deep));
+  opacity: 1;
+}
+
+
+.novidea-logo-mark {
+  background-color: color-mix(in srgb, var(--brand-primary) 18%, var(--brand-ink));
+  color: var(--brand-primary-highlight);
+  border: 1px solid color-mix(in srgb, var(--brand-primary) 58%, var(--brand-ink));
+}
+
+
+.novidea-login-notice {
+  border: 1px solid transparent;
+}
+.novidea-login-notice--warning {
+  background-color: color-mix(in srgb, var(--brand-primary) 18%, var(--brand-surface));
+  border-color: color-mix(in srgb, var(--brand-accent-bg) 28%, var(--brand-surface));
+  color: #713A19;
+}
+.novidea-login-notice--error {
+  background-color: color-mix(in srgb, #B4402B 8%, var(--brand-surface));
+  border-color: color-mix(in srgb, #B4402B 28%, var(--brand-surface));
+  color: #932C21;
+}

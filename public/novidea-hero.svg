@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Maqueta de objetos impresos en 3D</title>
+  <desc id="desc">Colección de volúmenes blancos inspirados en una pequeña ciudad, sobre una base de diseño.</desc>
+  <rect width="1400" height="1200" fill="#e8e5df"/>
+  <circle cx="1160" cy="170" r="112" fill="#e7b000"/>
+  <ellipse cx="690" cy="965" rx="485" ry="72" fill="#17252d" opacity=".13"/>
+  <path d="M240 870 705 704l470 164-464 174Z" fill="#d8d3ca"/>
+  <path d="m240 870 464 172v112L240 982Z" fill="#bcb8b0"/>
+  <path d="m704 1042 471-174v112l-471 174Z" fill="#c7c2ba"/>
+  <g stroke="#c5c1b9" stroke-width="7" stroke-linejoin="round">
+    <path d="m340 807 126-47 126 44-126 48Z" fill="#fffdf8"/>
+    <path d="m340 807v143l126 47V855Z" fill="#e5e2dc"/>
+    <path d="m466 855 126-51v143l-126 50Z" fill="#f3f1ec"/>
+    <path d="m420 784v-178l116-42 104 38v166l-104 36Z" fill="#fffdf8"/>
+    <path d="m420 606 116 42v166l-116-30Z" fill="#e6e3dc"/>
+    <path d="m536 648 104-46v166l-104 46Z" fill="#f6f4ef"/>
+    <path d="m568 742 122-46 122 43-122 49Z" fill="#fffdf8"/>
+    <path d="m568 742v150l122 45V791Z" fill="#e3e0d9"/>
+    <path d="m690 791 122-52v152l-122 46Z" fill="#f4f1eb"/>
+    <path d="m660 672v-260l130-48 114 43v253l-114 43Z" fill="#fffdf8"/>
+    <path d="m660 412 130 47v260l-130-47Z" fill="#e7e4de"/>
+    <path d="m790 459 114-52v253l-114 49Z" fill="#f5f3ee"/>
+    <path d="m865 818 134-50 135 47-134 53Z" fill="#fffdf8"/>
+    <path d="m865 818v127l135 49V868Z" fill="#dedbd5"/>
+    <path d="m1000 868 134-53v129l-134 50Z" fill="#f4f2ed"/>
+    <path d="m890 734v-142l92-34 86 32v139l-86 35Z" fill="#fffdf8"/>
+    <path d="m890 592 92 34v142l-92-34Z" fill="#e1ded8"/>
+    <path d="m982 626 86-36v139l-86 37Z" fill="#f4f1eb"/>
+    <path d="m292 866v-91l77-28 73 26v89l-73 28Z" fill="#fffdf8"/>
+    <path d="m292 775 77 28v91l-77-28Z" fill="#e2dfd8"/>
+    <path d="m369 803 73-30v89l-73 32Z" fill="#f4f2ec"/>
+  </g>
+  <g fill="#e25f3d" opacity=".85">
+    <rect x="501" y="552" width="23" height="23" rx="4"/>
+    <rect x="742" y="472" width="24" height="24" rx="4"/>
+    <rect x="945" y="650" width="20" height="20" rx="4"/>
+  </g>
+  <g fill="#e7b000">
+    <rect x="454" y="698" width="24" height="24" rx="4"/>
+    <rect x="820" y="560" width="25" height="25" rx="4"/>
+    <circle cx="1050" cy="846" r="17"/>
+  </g>
+</svg>
