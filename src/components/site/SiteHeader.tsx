@@ -58,8 +58,7 @@ export default function SiteHeader({
   };
 
   return (
-    <header className={`relative z-40 text-[var(--brand-on-ink)] ${isHero ? "border-b border-white/[0.09]" : "border-b border-white/[0.08] bg-[var(--brand-ink-deep)]"}`}>
-      <div className="mx-auto flex max-w-[1480px] items-center justify-between gap-4 px-5 py-4 sm:px-8 lg:px-12">
+<header className={`relative z-40 text-[var(--brand-on-ink)] ${isHero ? "border-b border-white/[0.09] bg-[#292725]/95" : "border-b border-white/[0.08] bg-[var(--brand-ink-deep)]"}`}>      <div className="mx-auto flex max-w-[1480px] items-center justify-between gap-4 px-5 py-4 sm:px-8 lg:px-12">
         <Link to="/" className="group flex min-w-0 items-center gap-3" aria-label={`${brandName || "NOVIDEA"}, inicio`}>
           {logoUrl ? (
             <img src={logoUrl} alt={brandName || "Logótipo da marca"} className="max-h-11 w-auto max-w-[5.5rem] shrink-0 object-contain" />
